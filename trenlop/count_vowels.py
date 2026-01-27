@@ -1,4 +1,3 @@
-
 def count_vowels():
     s = input("Please write a sentence: ")
     s = s.lower()
@@ -8,6 +7,6 @@ def count_vowels():
     for i in s:
         if i in ["a", "e", "i", "o", "u"]:
             count += 1
-    print(count)
+    print("Total vowels:", count)
 
 count_vowels()
