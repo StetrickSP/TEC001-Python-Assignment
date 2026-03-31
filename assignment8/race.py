@@ -58,7 +58,7 @@ print("\n=== Race Simulation ===")
 cars = []
 for i in range(10):
     reg = "ABC-" + str(i+1)
-    max_speed = random.randint(100, 200)
+    max_speed = random.randint(150, 200)
     cars.append(Car(reg, max_speed))
 
 race = Race("Grand Demolition Derby", 8000, cars)
